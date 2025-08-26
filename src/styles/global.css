@@ -1,0 +1,56 @@
+body {
+  background-color: #0f172a;
+  color: #f1f5f9;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #38bdf8;
+}
+
+.app-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.custom-list-button-row {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.custom-list-button {
+  background-color: #0a96e78f;
+  color: #f0fdf4;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-list-button:hover {
+  background-color: #0369a1;
+}
+
+.modal input::placeholder {
+  color: #94a3b8;
+  font-style: italic;
+}
+.demo-banner {
+  position: relative;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #ffeeba;
+  z-index: 1000;
+  box-sizing: border-box;
+}
